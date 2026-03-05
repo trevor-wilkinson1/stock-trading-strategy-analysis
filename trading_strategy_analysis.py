@@ -1,10 +1,3 @@
-file = open("/workspaces/DATA_3500_trevor_wilkinson/Homework5/AMC.txt")
-
-lines = file.readlines()
-
-prices = [round(float(line), 2) for line in lines]
-
-
 
 def MeanReversionStrategy(prices): 
     days = 5 # 5 day moving average
